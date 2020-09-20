@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    padding: 0;
+}
+#menu{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px 0px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: wheat;
+    display: block;
+    font-size: 2rem;
+}
+#menu ul li a:hover{
+    
+    
+    background: linear-gradient(57deg,#1e4d92,#00c6a7);
+    
+border-radius: 40px;
+}
+#menu ul li{
+    
+    background: linear-gradient(57deg,#00c6a7,#1e4d92);
+    /* clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%); */
+border: 1px solid white;
+width: 200px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+float: left;
+position: relative;
+border-radius: 40px;
+}
+#menu ul ul{
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover>ul{
+    display: block;
+}
+#menu ul ul ul{
+    margin-left: 200px;
+    top: 0px;
+}
+.fas{
+    /* align-items: flex-end; */
+/* padding-right: 20px 19px; */    
+float: right;
+    margin: 10px;
+}
